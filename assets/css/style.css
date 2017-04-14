@@ -3,47 +3,96 @@ body {
 
 }
 
-#About {
+.About {
 	border-top-style: none;
 	border-right-style: none;
 	border-bottom-style: solid;
 	border-left-style: none;
 	border-width: 50%;
-	border-color:grey;
+	border-color:#cccccc;
 	color:#4aaaa5;
 }
 
 .box {
-	position: relative;
+	position: absolute;
 	width: 598px;
-	height: 500px;
-	top: 25%;
-	left:25%;
+	height: auto;
+	top: 20%;
+	left:15%;
 	border:25px;
 	padding:25px;
 	border-style: solid;
 	border-width: 1px;
-	border-color:grey;
+	border-color:#cccccc;
 	background-color:white;
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color:grey;
+	color:#777777;
 }
 
 .Name {
-	position: absolute;
-	width: 150px;
-	height: 80px;
-	margin-left: auto;
-	margin-top: auto;
+	position: relative;
+	float: left;
+	height: 60px;
+	width:230px;
+	top:0%;
+	margin-left: 14.5%;
+	margin-top: -3.9%;
 	padding:15px;
+	
 	background-color:#4aaaa5;
 	color: white;
 	text-align: center;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	z-index: 2
+
 }
 
-.links {
-	
+.Top {
+	position: absolute;
+	width: 1440px;
+	height: 80px;
+	top: 0%;
+	left: 0%;
+	background-color: white;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-color: #cccccc;
+	font-color: #777777;
+
 }
 
+.Connect {
+	position: absolute;
+	width: 230px;
+	height: 150px;
+	border:1px;
+	padding-top:20px;
+	padding-right:20px;
+	padding-bottom:none;
+	padding-left:20px;
+	right: 18%;
+	top:20%;
+	background-color: white;
+	color:#4aaaa5;
+	text-align:center;
+	font-family:'Georgia', Times, Times New Roman, serif;
+}
 
+#Connect {
+	border-color:#cccccc;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+}
+
+#Index {
+	color:#cccccc;
+}
+
+.Picture {
+	width:250px;
+	height:200px;
+}
